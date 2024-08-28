@@ -1,5 +1,5 @@
 {
-  "name": "aquatrack-frontend",
+  "name": "tracker-of-water-frontend",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "proxy": "https://aqua-track-backend.onrender.com"
+    "proxy": "https://tracker-of-water-backend.onrender.com"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",

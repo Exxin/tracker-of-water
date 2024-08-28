@@ -3,11 +3,11 @@ import { Notify } from 'notiflix/build/notiflix-notify-aio.js';
 
 const apiClient = axios.create({
   baseURL: 'https://tracker-of-water-backend.onrender.com',
-  baseURL: 'http://localhost:3000',
+  // baseURL: 'http://localhost:3000',
   withCredentials: true,
 });
 
-// axios.get('https://test-aquatrack-backend.onrender.com', {
+// axios.get('', {
 //   // ваші дані для логіну
 // }, {
 //   withCredentials: true,
